@@ -1,4 +1,4 @@
-package com.DXC.MyShoppingCart;
+package com.DXC.MyShoppingCart.exception;
 
 public class ProductNotFoundException extends Exception {
     public ProductNotFoundException() {

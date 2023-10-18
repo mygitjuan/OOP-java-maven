@@ -11,7 +11,7 @@ public class GestorCoches {
 
     public static void main(String[] args) {
         System.out.println("SIMULADOR DE COCHES");
-
+//try
         try {
             DISTANCIA = new Integer(args[0]);
             System.out.println("Distania correcta: " + DISTANCIA);

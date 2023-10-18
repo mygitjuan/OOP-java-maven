@@ -1,5 +1,8 @@
-package com.DXC.MyShoppingCart;
+package com.DXC.MyShoppingCart.testService;
 
+import com.DXC.MyShoppingCart.model.Product;
+import com.DXC.MyShoppingCart.exception.ProductNotFoundException;
+import com.DXC.MyShoppingCart.service.ShoppingCart;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -43,6 +46,8 @@ public class ServicioShoppingCartTest {
 
         carritoItems = carrito.getItemCount();
         assertEquals(3, carritoItems);
+
+
 
     }
     @Test

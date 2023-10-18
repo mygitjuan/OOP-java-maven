@@ -1,4 +1,7 @@
-package com.DXC.MyShoppingCart;
+package com.DXC.MyShoppingCart.service;
+
+import com.DXC.MyShoppingCart.exception.ProductNotFoundException;
+import com.DXC.MyShoppingCart.model.Product;
 
 import java.util.*;
 

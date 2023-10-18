@@ -1,4 +1,4 @@
-package com.DXC.MyShoppingCart;
+package com.DXC.MyShoppingCart.model;
 
 import lombok.ToString;
 

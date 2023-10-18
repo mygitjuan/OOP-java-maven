@@ -1,5 +1,8 @@
 package com.DXC.MyShoppingCart;
 
+import lombok.ToString;
+
+@ToString
 public class Product {
     private String title;
     private double price;
@@ -24,4 +27,5 @@ public class Product {
         }
         return false;
     }
+
 }
